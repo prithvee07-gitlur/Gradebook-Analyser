@@ -20,60 +20,31 @@ The **Gradebook Analyzer** is a Python console application that analyzes student
 - ✅ Shows a formatted results table  
 
 ---
+## 📂 Project Structure
 
-## 📁 Project Structure
+* **Gradebook_Analyzer.py:** The main Python script that contains the logic for processing grades.
+* **marks.csv:** The input data file containing student names and their corresponding marks.
 
-Gradebook-Analyzer/
-│── gradebook.py
-│── Readme.md
-└── marks.csv
+## 🚀 How to Run
 
+* **Prerequisites:** Ensure you have Python 3.x installed on your system.
+* **Setup:** Place `Gradebook_Analyzer.py` and `marks.csv` in the same directory.
+* **Execution:** Open your terminal in the project folder and run the command `python Gradebook_Analyzer.py`.
 
----
+## 🛠️ Usage
 
-## ▶️ How to Run
+When you run the program, it performs the following actions automatically:
 
-### 🔹 Manual Input Mode
+1.  **Read File:** The program looks for `marks.csv` in the current folder.
+2.  **Process Data:** It parses the CSV to extract student names and scores.
+3.  **Display Report:** It prints a summary to the console, including:
+    * Total number of students.
+    * Class average score.
+    * Highest and lowest scores with student names.
+    * A list of all students with their assigned letter grades.
 
-Run the program:
+## 👤 Author
 
-python gradebook.py
-1. Manual Input
-2. CSV Input
-
-##Your marks.csv file should follow this format:
-mahesh,89
-suresh,78
-nilesh,67
-rakesh,56
-rana,45
-billu,34
-
-
-##🧪 Error Handling
-
-The program safely handles:
-
-❌ Invalid integers
-
-❌ Marks outside the range 0–100
-
-❌ Missing CSV file
-
-❌ Invalid or corrupted CSV lines
-
-##👨‍💻 Author
-
-Prithvee Singh Yadav
-
-##⭐ Note
-
-This project is ideal for beginners learning:
-
-Python basics
-File handling
-Lists & dictionaries
-Statistics
-Input validation
-Real-world console application structure
-
+**Prithvee Singh Yadav**
+* **Roll No:** 2501010087
+* **Project:** Gradebook Analyzer
