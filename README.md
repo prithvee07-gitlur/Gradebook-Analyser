@@ -49,7 +49,8 @@ rakesh,56
 rana,45
 billu,34
 
-🧪 Error Handling
+
+##🧪 Error Handling
 
 The program safely handles:
 
@@ -61,22 +62,18 @@ The program safely handles:
 
 ❌ Invalid or corrupted CSV lines
 
-👨‍💻 Author
+##👨‍💻 Author
 
 Prithvee Singh Yadav
 
-⭐ Note
+##⭐ Note
 
 This project is ideal for beginners learning:
 
 Python basics
-
 File handling
-
 Lists & dictionaries
-
 Statistics
-
 Input validation
-
 Real-world console application structure
+
