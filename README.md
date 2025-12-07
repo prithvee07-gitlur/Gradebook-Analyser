@@ -40,7 +40,7 @@ Run the program:
 python gradebook.py
 1. Manual Input
 2. CSV Input
-,,,
+,,,bash
 ###Your marks.csv file should follow this format:
 mahesh,89
 suresh,78
